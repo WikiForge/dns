@@ -18,8 +18,8 @@ $ORIGIN wikiforge.net.
 @		NS	ns2.wikiforge.net.
 
 ;; A records
-ns1		A	???
-ns2		A	???
+ns1		A	162.222.205.216
+ns2		A	162.222.205.220
 
 ; Mail exchanges
 @		MX	10	inbound-smtp.us-west-2.amazonaws.com.
