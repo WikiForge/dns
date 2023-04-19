@@ -1,0 +1,46 @@
+$TTL 300
+$ORIGIN wikiforge.net.
+
+@		SOA ns1 hostmaster (
+		20230419000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Wildcard services
+@		DYNA	geoip!cp
+*		DYNA	geoip!cp
+
+; Name servers
+@		NS	ns1.wikiforge.net.
+@		NS	ns2.wikiforge.net.
+
+;; A records
+ns1		A	???
+ns2		A	???
+
+; Mail exchanges
+@		MX	10	inbound-smtp.us-west-2.amazonaws.com.
+mail		MX	10	feedback-smtp.us-east-1.amazonses.com.
+
+; Miscellaneous
+
+; acme challenges
+
+; Servers
+
+
+; Services
+m		DYNA	geoip!cp
+*.m		DYNA	geoip!cp
+static		DYNA	geoip!cp
+support		DYNA	geoip!cp
+blog		CNAME	support
+phorge-storage	CNAME	support
+
+; Load Balancer
+mw-lb		DYNA	geoip!cp
+
+; Other
