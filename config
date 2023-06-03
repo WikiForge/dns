@@ -25,7 +25,7 @@ plugins => {
 	weighted => {
 		multi = false
 		service_types = up
-		restbase => {
+		services => {
 			services1 = [ services1.wikiforge.net., 1 ]
 		}
 	}
