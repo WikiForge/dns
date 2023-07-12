@@ -25,8 +25,18 @@ plugins => {
 	weighted => {
 		multi = false
 		service_types = up
+		up_thresh = 0.5
+		thumb => {
+			addrs_v4 => {
+				jobrunner1 = [ 13.58.205.57, 1 ]
+				jobrunner2 = [ 3.15.17.20, 1 ]
+				test1 = [ 52.14.195.40, 1 ]
+			}
+		}
 		services => {
-			services1 = [ services1.wikiforge.net., 1 ]
+			addrs_v4 => {
+				services1 = [ 74.208.104.183, 1 ]
+			}
 		}
 	}
 	geoip => {
