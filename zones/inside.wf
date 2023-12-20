@@ -1,0 +1,65 @@
+$TTL 300
+$ORIGIN inside.wf.
+
+@		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
+		20231220000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Wildcard services
+@		DYNA	geoip!cp
+*		DYNA	geoip!cp
+
+; Name servers
+@		NS	ns1.wikiforge.net.
+@		NS	ns2.wikiforge.net.
+
+; Mail exchangers
+@		MX	1	mail.wikiforge.net.
+@		MX	10	tuesday.mxrouting.net.
+@		MX	20	tuesday-relay.mxrouting.net.
+
+; Mail policies
+wikiforge.net.	TXT	"v=spf1 include:mxlogin.com -all"
+
+; Mail autodiscovery
+
+;; DKIM - Policy: Mail may be signed. Not required.
+
+;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
+
+; BIMI - Used for verified emails
+
+; Servers
+bast1		A	10.0.0.114
+bots1		A	10.0.0.123
+db1		A	10.0.0.103
+graylog1	A	10.0.0.113
+jobchron1	A	10.0.0.105
+jobrunner1	A	10.0.0.104
+ldap1		A	10.0.0.111
+mail1		A	10.0.0.109
+mem1		A	10.0.0.106
+mon1		A	10.0.0.110
+mw1		A	10.0.0.101
+mw2		A	10.0.0.102
+mw3		A	10.0.0.119
+os1		A	10.0.0.112
+phorge1		A	10.0.0.107
+prometheus1	A	10.0.0.118
+puppet1-private	A	10.0.0.100
+services1	A	10.0.0.115
+test1		A	10.0.0.108
+
+; Services
+icinga		CNAME	mon1
+grafana		CNAME	mon1
+logging		CNAME	graylog1
+opensearch	CNAME	os1
+
+; load balancers
+
+; Other
