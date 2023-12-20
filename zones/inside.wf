@@ -23,7 +23,6 @@ $ORIGIN inside.wf.
 @		MX	20	tuesday-relay.mxrouting.net.
 
 ; Mail policies
-wikiforge.net.	TXT	"v=spf1 include:mxlogin.com -all"
 
 ; Mail autodiscovery
 
