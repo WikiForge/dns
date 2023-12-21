@@ -44,11 +44,14 @@ mail1		A	10.0.0.109
 mem1		A	10.0.0.106
 mon1		A	10.0.0.110
 mw1		A	10.0.0.101
+mw1-public	AAAA	2604:4300:a:37::101
 mw2		A	10.0.0.102
+mw2-public	A	2604:4300:a:37::102
 mw3		A	10.0.0.119
 os1		A	10.0.0.112
 phorge1		A	10.0.0.107
 prometheus1	A	10.0.0.118
+puppet1		AAAA	2604:4300:a:37::100
 puppet1-private	A	10.0.0.100
 services1	A	10.0.0.115
 test1		A	10.0.0.108
