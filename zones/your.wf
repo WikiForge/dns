@@ -39,3 +39,5 @@ $ORIGIN your.wf.
 ; load balancers
 
 ; Other
+_acme-challenge	TXT	"lDIbsUE6uAtN4_258_ZwaW2e1yvxPRhQe9ewYSCjVL8"
+_acme-challenge	TXT	"PyXdjl1yME4DWhKZgBXSedcq2YGUGxqw6liAMq0kYUs"
