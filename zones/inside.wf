@@ -80,3 +80,5 @@ opensearch	CNAME	os1
 ; load balancers
 
 ; Other
+_acme-challenge	TXT	"pODX0cIFB9C_rsqIdkHLCWbcFwioZXZMEBK6sYYVGYE"
+_acme-challenge	TXT	"4HokV8TQcc_WSoDnkbMzfg69ko7o6F-K33er1Sm7i3k"
