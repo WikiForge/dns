@@ -59,3 +59,5 @@ support		CNAME	phorge1
 
 ; Other
 avid		CNAME	mwdedi3.your.wf.
+_acme-challenge	TXT	"CmXwSHQIQaSv4BKVtQZv2I0xeKmFMFQB2zDqC8X62Uw"
+_acme-challenge	TXT	"srT4j0AH-jdgzO9hR96ltid8Ft_VHfAq9fEg5dmi-go"
