@@ -58,6 +58,8 @@ mw1-public	AAAA	2604:4300:a:37::101
 mw2		A	10.0.0.102
 mw2-public	AAAA	2604:4300:a:37::102
 mw3		A	10.0.0.119
+mwdedi1		A	10.0.0.151
+mwdedi2		A	10.0.0.152
 ns1		A	158.69.62.222
 		AAAA	2607:5300:201:3100::6027
 ns2		A	51.68.215.13
@@ -70,12 +72,16 @@ puppet1-public	AAAA	2604:4300:a:37::100
 puppet1-private	A	10.0.0.100
 services1	A	10.0.0.115
 test1		A	10.0.0.108
+swiftac1	A	10.0.0.120
+swiftobject1	A	10.0.0.121
+swiftproxy1	A	10.0.0.122
 
 ; Services
 icinga		CNAME	mon1
 grafana		CNAME	mon1
 logging		CNAME	graylog1
 opensearch	CNAME	os1
+swift-lb	CNAME	swiftproxy1
 
 ; load balancers
 
