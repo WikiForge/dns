@@ -56,4 +56,4 @@ support		CNAME	phorge1
 ; load balancers
 
 ; Other
-avid		CNAME	mw3.your.wf.
+avid		CNAME	mwdedi3.your.wf.
