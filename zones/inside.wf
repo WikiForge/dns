@@ -35,6 +35,7 @@ $ORIGIN inside.wf.
 ; Servers
 bast1		A	10.0.0.114
 bots1		A	10.0.0.123
+cloud1		A	208.110.84.234
 cp2		A	158.69.62.132
 		AAAA	2607:5300:201:3100::175d
 cp3		A	51.68.214.246
