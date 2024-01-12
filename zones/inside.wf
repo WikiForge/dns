@@ -51,7 +51,8 @@ graylog1	A	10.0.0.113
 jobchron1	A	10.0.0.105
 jobrunner1	A	10.0.0.104
 ldap1		A	10.0.0.111
-mail1		A	10.0.0.109
+phorge1		A	10.0.0.109
+phorge1-public	AAAA	2604:4300:a:37::109
 mem1		A	10.0.0.106
 mon1		A	10.0.0.110
 mw1		A	10.0.0.101
@@ -63,7 +64,8 @@ ns1		A	158.69.62.222
 ns2		A	51.68.215.13
 		AAAA	2001:41d0:801:2000::2549
 os1		A	10.0.0.112
-phorge1		A	10.0.0.107
+phorge1		A	10.0.0.108
+phorge1		AAAA	2604:4300:a:37::108
 prometheus1	A	10.0.0.118
 puppet1		AAAA	2604:4300:a:37::100
 puppet1-public	AAAA	2604:4300:a:37::100
