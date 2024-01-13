@@ -86,6 +86,7 @@ grafana		CNAME	mon1
 logging		CNAME	graylog1
 opensearch	CNAME	os1
 swift-lb	CNAME	swiftproxy1
+ldap		CNAME	ldap1
 
 ; load balancers
 
