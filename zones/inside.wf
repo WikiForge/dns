@@ -126,3 +126,5 @@ ldap		CNAME	ldap1
 ; Other
 _acme-challenge	TXT	"pODX0cIFB9C_rsqIdkHLCWbcFwioZXZMEBK6sYYVGYE"
 _acme-challenge	TXT	"4HokV8TQcc_WSoDnkbMzfg69ko7o6F-K33er1Sm7i3k"
+_acme-challenge	TXT	"T0zvToTuEfSa9h5_g_RG7aTPsV3stO-xx6uzesj2nc4"
+_acme-challenge	TXT	"8M3JZhe6IQSxUEJvEiJDThF0YnfeIORfFRmFN1GcYZc"
