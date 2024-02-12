@@ -117,7 +117,7 @@ swiftproxy21		A	10.0.2.24
 icinga		CNAME	mon1
 grafana		CNAME	mon1
 logging		CNAME	graylog1
-opensearch	CNAME	os1
+opensearch	CNAME	os21
 swift-lb	CNAME	swiftproxy1
 ldap		CNAME	ldap1
 
