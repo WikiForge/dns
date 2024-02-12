@@ -57,3 +57,5 @@ support		CNAME	phorge1-public.inside.wf.
 avid		CNAME	mwdedi3.your.wf.
 _acme-challenge	TXT	"CmXwSHQIQaSv4BKVtQZv2I0xeKmFMFQB2zDqC8X62Uw"
 _acme-challenge	TXT	"srT4j0AH-jdgzO9hR96ltid8Ft_VHfAq9fEg5dmi-go"
+_acme-challenge	TXT	"YgVc-I5j66CxFgC087fdhXWVU3o1Q5qp8oUiSKm1qpY"
+_acme-challenge	TXT	"mhprQUnHjg141A2AIIJXrQzak0YdNgpSbGPhW0TS9yM"
