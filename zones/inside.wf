@@ -81,6 +81,38 @@ mwdedi2		A	10.0.0.152
 mwdedi1-public	AAAA	2604:4300:a:37::151
 mwdedi2-public	AAAA	2604:4300:a:37::152
 
+puppet21		AAAA	2602:294:0:a9e::202
+puppet21-private	A	10.0.2.2
+mw21			A	10.0.2.3
+mw21-public		AAAA	2602:294:0:a9e::203
+mw22			A	10.0.2.4
+mw22-public		AAAA	2602:294:0:a9e::204
+mw23			A	10.0.2.5
+mw23-public		AAAA	2602:294:0:a9e::205
+db21			A	10.0.2.6
+mwtask21		A	10.0.2.7
+jobchron21		A	10.0.2.8
+mem21			A	10.0.2.9
+staging21		A	10.0.2.10
+staging21-public	AAAA	2602:294:0:a9e::210
+phorge21		A	10.0.2.11
+mon21			A	10.0.2.12
+ns21			A	10.0.2.13
+cp21			A	10.0.2.14
+cp21-public		AAAA	2602:294:0:a9e::214
+bast21			A	10.0.2.15
+bast21-public		AAAA	2602:294:0:a9e::215
+services21		A	10.0.2.16
+os21			A	10.0.2.17
+graylog21		A	10.0.2.18
+prometheus21		A	10.0.2.19
+matomo21		A	10.0.2.20
+matomo21-public		AAAA	2602:294:0:a9e::220
+bots21			A	10.0.2.21
+swiftac21		A	10.0.2.22
+swiftobject21		A	10.0.2.23
+swiftproxy21		A	10.0.2.24
+
 ; Services
 icinga		CNAME	mon1
 grafana		CNAME	mon1
