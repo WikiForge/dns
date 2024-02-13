@@ -113,8 +113,11 @@ matomo21		A	10.0.2.20
 matomo21-public		AAAA	2602:294:0:a9e::220
 bots21			A	10.0.2.21
 swiftac21		A	10.0.2.22
+swiftac21-public	AAAA	2602:294:0:a9e::222
 swiftobject21		A	10.0.2.23
+swiftobject21-public	AAAA	2602:294:0:a9e::223
 swiftproxy21		A	10.0.2.24
+swiftproxy21-public	AAAA	2602:294:0:a9e::224
 mwdedi21		A	10.0.2.51
 mwdedi21-public		AAAA	2602:294:0:a9e::251
 mwdedi22		A	10.0.2.52
