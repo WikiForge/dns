@@ -74,8 +74,11 @@ puppet1-private	A	10.0.0.100
 services1	A	10.0.0.115
 test1		A	10.0.0.108
 swiftac1	A	10.0.0.120
+swiftac1-public	AAAA	2604:4300:a:37::120
 swiftobject1	A	10.0.0.121
+swiftobject1-public	AAAA	2604:4300:a:37::121
 swiftproxy1	A	10.0.0.122
+swiftproxy1-public	AAAA	2604:4300:a:37::122
 mwdedi1		A	10.0.0.151
 mwdedi2		A	10.0.0.152
 mwdedi1-public	AAAA	2604:4300:a:37::151
