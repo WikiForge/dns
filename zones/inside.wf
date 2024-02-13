@@ -113,9 +113,9 @@ swiftac21		A	10.0.2.22
 swiftobject21		A	10.0.2.23
 swiftproxy21		A	10.0.2.24
 mwdedi21		A	10.0.2.51
-mw21-public		AAAA	2602:294:0:a9e::251
-mw21			A	10.0.2.42
-mw21-public		AAAA	2602:294:0:a9e::252
+mwdedi21-public		AAAA	2602:294:0:a9e::251
+mwdedi22		A	10.0.2.52
+mwdedi22-public		AAAA	2602:294:0:a9e::252
 
 ; Services
 icinga		CNAME	mon1
