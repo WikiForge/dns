@@ -128,7 +128,7 @@ icinga		CNAME	mon1
 grafana		CNAME	mon1
 logging		CNAME	graylog1
 opensearch	CNAME	os21
-swift-lb	CNAME	swiftproxy1
+swift-lb	CNAME	swiftproxy21
 ldap		CNAME	ldap1
 
 ; load balancers
