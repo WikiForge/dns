@@ -36,17 +36,13 @@ _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1; rua=mailto:reports@wikiforge.ne
 default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswiki/f/f1/WikiForge_BIMI.svg;a="
 
 ; Servers
-cloud1		A	208.110.84.234
-ns1		A	158.69.62.222
-		AAAA	2607:5300:201:3100::6027
+ns1		A	38.46.217.173
+		AAAA	2602:294:0:a9e::213
 ns2		A	51.68.215.13
 		AAAA	2001:41d0:801:2000::2549
-puppet1		AAAA	2604:4300:a:37::105
 
 ; Services
-bastion		A	208.110.84.236
-		AAAA	2604:4300:a:37::117
-mail		A	208.110.84.237
+bastion		CNAME	bast21-public.inside.wf.
 static-help	CNAME	wikiforge.github.io.
 status		CNAME	wikiforge.hund.io.
 support		CNAME	phorge1-public.inside.wf.
@@ -55,7 +51,3 @@ support		CNAME	phorge1-public.inside.wf.
 
 ; Other
 avid		CNAME	mwdedi3.your.wf.
-_acme-challenge	TXT	"CmXwSHQIQaSv4BKVtQZv2I0xeKmFMFQB2zDqC8X62Uw"
-_acme-challenge	TXT	"srT4j0AH-jdgzO9hR96ltid8Ft_VHfAq9fEg5dmi-go"
-_acme-challenge	TXT	"YgVc-I5j66CxFgC087fdhXWVU3o1Q5qp8oUiSKm1qpY"
-_acme-challenge	TXT	"mhprQUnHjg141A2AIIJXrQzak0YdNgpSbGPhW0TS9yM"
