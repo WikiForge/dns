@@ -45,7 +45,7 @@ ns2		A	51.68.215.13
 bastion		CNAME	bast21-public.inside.wf.
 static-help	CNAME	wikiforge.github.io.
 status		CNAME	wikiforge.hund.io.
-support		CNAME	phorge21-public.inside.wf.
+; support	CNAME	phorge21-public.inside.wf.
 
 ; load balancers
 
