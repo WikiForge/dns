@@ -41,3 +41,5 @@ $ORIGIN your.wf.
 ; Other
 _acme-challenge	TXT	"lDIbsUE6uAtN4_258_ZwaW2e1yvxPRhQe9ewYSCjVL8"
 _acme-challenge	TXT	"PyXdjl1yME4DWhKZgBXSedcq2YGUGxqw6liAMq0kYUs"
+_acme-challenge	TXT	"zQb7DQ0Kxn-Ayeakfa7LK4WpfwgnXBwfq_SWzJyo9_4"
+_acme-challenge	TXT	"vDIiDrdniLIQfnlPPi4Ht6w8Q9HszmCK0ZpVd8GRlqc"
