@@ -100,6 +100,7 @@ mem21			A	10.0.2.9
 staging21		A	10.0.2.10
 staging21-public	AAAA	2602:294:0:a9e::210
 phorge21		A	10.0.2.11
+phorge21-public		AAAA	2602:294:0:a9e::211
 mon21			A	10.0.2.12
 ns21			A	10.0.2.13
 cp21			A	10.0.2.14
