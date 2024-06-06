@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN wikiforge.net.
+$ORIGIN wikiforge.xyz.
 
 @		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
-		20231220000001	; serial
+		20240605000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
