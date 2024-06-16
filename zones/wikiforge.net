@@ -22,12 +22,12 @@ $ORIGIN wikiforge.net.
 @		MX	20	tuesday-relay.mxrouting.net.
 
 ; Mail policies
-@	TXT	"v=spf1 include:mxlogin.com -all"
+@	TXT	"v=spf1 a mx include:mxroute.com -all"
 
 ; Mail autodiscovery
 
 ;; DKIM - Policy: Mail may be signed. Not required.
-x._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3OZHhfllokn1NfAOFM2cyUZGojvEFZJdNuzGNlw/NLaLi8w3jNLeZfUXBzaRjJ1ehe0sOk8MOU230QHqt6gKNYIsY5c2AeVGwwSfwvvTLBCjD0xrI3hAiAI4NsGd5exkFXrAkLyDigwAAtSSxZ7t8LudXWJIlXL8XJKbOnZlQlkqPzQcS7FI99QZ+ozSwmP" "fjkao4e2TtpcHGk4ryQj3j6RaWUIG/bAeL+1gfZpZ00z/M1ema9hqkc1XLai/uPH+preiwJTeADKwZc0WtgItXz/CBoZOJQpPRufMmdjgXPAxSAZH57kAjvBmk9hL0oTZo1DDvQfa8n7y6H4IRzMbrwIDAQAB"
+x._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3OZHhfllokn1NfAOFM2cyUZGojvEFZJdNuzGNlw/NLaLi8w3jNLeZfUXBzaRjJ1ehe0sOk8MOU230QHqt6gKNYIsY5c2AeVGwwSfwvvTLBCjD0xrI3hAiAI4NsGd5exkFXrAkLyDigwAAtSSxZ7t8LudXWJIlXL8XJKbOnZlQlkqPzQcS7FI99QZ+ozSwmPfjkao4e2TtpcHGk4ryQj3j6RaWUIG/bAeL+1gfZpZ00z/M1ema9hqkc1XLai/uPH+preiwJTeADKwZc0WtgItXz/CBoZOJQpPRufMmdjgXPAxSAZH57kAjvBmk9hL0oTZo1DDvQfa8n7y6H4IRzMbrwIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1; rua=mailto:reports@wikiforge.net;"
