@@ -27,7 +27,7 @@ $ORIGIN wikiforge.xyz.
 ; Mail autodiscovery
 
 ;; DKIM - Policy: Mail may be signed. Not required.
-x._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3OZHhfllokn1NfAOFM2cyUZGojvEFZJdNuzGNlw/NLaLi8w3jNLeZfUXBzaRjJ1ehe0sOk8MOU230QHqt6gKNYIsY5c2AeVGwwSfwvvTLBCjD0xrI3hAiAI4NsGd5exkFXrAkLyDigwAAtSSxZ7t8LudXWJIlXL8XJKbOnZlQlkqPzQcS7FI99QZ+ozSwmP" "fjkao4e2TtpcHGk4ryQj3j6RaWUIG/bAeL+1gfZpZ00z/M1ema9hqkc1XLai/uPH+preiwJTeADKwZc0WtgItXz/CBoZOJQpPRufMmdjgXPAxSAZH57kAjvBmk9hL0oTZo1DDvQfa8n7y6H4IRzMbrwIDAQAB"
+x._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs9Jh+LJ1t5OKEZk2l7n0CJznAf7C14gwJlnKqJ3IgMMAuh//Wua47lw1J5vkX+LwTKcHTKAWR5qIXBhPKWDkKdJYbSfYGiJ2MgNTJAEoSpGOG3LQLjZVo/G7lR9o6adoKNBITIu4qLAO6HaOzVlTLg4p7iQ+sZSgU3HmHTJmYFqB0uPJlf9VxK4XvAP+w8c4CeJD33NqKlQaMOYjhi71ONPu5tVmVUBAnNv+8GO4dOfENM6E3PJzZ6ABBF1Uyp9l315wua+ns/Wm1Htfxgzk42Bs3LA3MUMktZGuMmUBUr1SQwoCaidlwQdLXbb+F8cuPT9Uq0OmWdBQ8AcpA5rnvwIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1; rua=mailto:reports@wikiforge.net;"
