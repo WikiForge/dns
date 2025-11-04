@@ -45,5 +45,5 @@ $ORIGIN 10.0.@Z
 29   PTR swiftproxy101.fsslc.wfnet.
 30   PTR bots101.fsslc.wfnet.
 31   PTR whmcs101.fsslc.wfnet.
-31   PTR rdb101.fsslc.wfnet.
+32   PTR rdb101.fsslc.wfnet.
 33   PTR prometheus101.fsslc.wfnet.
