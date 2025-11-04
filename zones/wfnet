@@ -1,0 +1,54 @@
+@	1H	IN	SOA	ns1.wikiforge.net. hostmaster.wikiforge.net. (
+		2025060501 ; serial
+		12H        ; refresh
+		2H         ; retry
+		1W         ; expire
+		1H         ; ncache
+)
+
+; Name servers
+@	1D	NS	ns1.wikiforge.net.
+@	1D	NS	ns2.wikiforge.net.
+
+$TTL 1H ; Default TTL for records
+
+; =========================================
+; FSSLC (FiberState Salt Lake City) - WikiForge
+; Zone: fsslc.wfnet.
+; Cloud10 (10.0.10.0/24)
+; =========================================
+$ORIGIN fsslc.wfnet.
+
+cloud10           A     10.0.10.1
+puppet101         A     10.0.10.2
+bast101           A     10.0.10.3
+bast102           A     10.0.10.4
+mw101             A     10.0.10.5
+mw102             A     10.0.10.6
+mw103             A     10.0.10.7
+mw104             A     10.0.10.8
+mwtask101         A     10.0.10.9
+db101             A     10.0.10.10
+db102             A     10.0.10.11
+test101           A     10.0.10.12
+cp101             A     10.0.10.13
+changeprop101     A     10.0.10.14
+eventgate101      A     10.0.10.15
+kafka101          A     10.0.10.16
+mon101            A     10.0.10.17
+graylog101        A     10.0.10.18
+ldap101           A     10.0.10.19
+mail101           A     10.0.10.20
+mem101            A     10.0.10.21
+matomo101         A     10.0.10.22
+ns1               A     10.0.10.23
+os101             A     10.0.10.24
+os102             A     10.0.10.25
+phorge101         A     10.0.10.26
+swiftac101        A     10.0.10.27
+swiftobject101     A     10.0.10.28
+swiftproxy101     A     10.0.10.29
+bots101           A     10.0.10.30
+whmcs101          A     10.0.10.31
+rdb101            A     10.0.10.32
+prometheus101     A     10.0.10.33
