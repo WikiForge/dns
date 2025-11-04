@@ -1,0 +1,49 @@
+@	1H	IN	SOA	ns1.wikiforge.net. hostmaster.wikiforge.net. (
+		2025060501 ; serial
+		12H        ; refresh
+		2H         ; retry
+		1W         ; expire
+		1H         ; ncache
+)
+
+; Name servers
+@	1D	NS	ns1.wikiforge.net.
+@	1D	NS	ns2.wikiforge.net.
+
+$TTL 1H ; Default TTL for records
+
+; cloud10
+$ORIGIN 10.0.@Z
+1		PTR	cloud10.fsslc.wfnet.
+2   PTR puppet101.fsslc.wfnet.
+3		PTR	bast101.fsslc.wfnet.
+4   PTR bast102.fsslc.wfnet.
+5		PTR	mw101.fsslc.wfnet.
+6		PTR	mw102.fsslc.wfnet.
+7		PTR	mw103.fsslc.wfnet.
+8		PTR	mw104.fsslc.wfnet.
+9		PTR  mwtask101.fsslc.wfnet.
+10	 PTR db101.fsslc.wfnet.
+11	 PTR	db102.fsslc.wfnet.
+12	 PTR	test101.fsslc.wfnet.
+13	 PTR	cp101.fsslc.wfnet.
+14	 PTR	changeprop101.fsslc.wfnet.
+15	 PTR	eventgate101.fsslc.wfnet.
+16   PTR  kafka101.fsslc.wfnet.
+17   PTR  mon101.fsslc.wfnet.
+18   PTR  graylog101.fsslc.wfnet.
+19   PTR  ldap101.fsslc.wfnet.
+20   PTR mail101.fsslc.wfnet.
+21   PTR mem101.fsslc.wfnet.
+22   PTR matomo101.fsslc.wfnet.
+23   PTR ns1.fsslc.wfnet.
+24   PTR os101.fsslc.wfnet.
+25   PTR os102.fsslc.wfnet.
+26   PTR phorge101.fsslc.wfnet.
+27   PTR swiftac101.fsslc.wfnet.
+28   PTR swiftobject101.fsslc.wfnet.
+29   PTR swiftproxy101.fsslc.wfnet.
+30   PTR bots101.fsslc.wfnet.
+31   PTR whmcs101.fsslc.wfnet.
+31   PTR rdb101.fsslc.wfnet.
+33   PTR prometheus101.fsslc.wfnet.
