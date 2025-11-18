@@ -17,13 +17,6 @@ $ORIGIN wikiforge.net.
 @		NS	ns1.wikiforge.net.
 @		NS	ns2.wikiforge.net.
 
-; Mail exchangers
-@		MX	10	tuesday.mxrouting.net.
-@		MX	20	tuesday-relay.mxrouting.net.
-
-; Mail policies
-@	TXT	"v=spf1 a mx include:mxroute.com -all"
-
 ; Mail autodiscovery
 
 ;; DKIM - Policy: Mail may be signed. Not required.
@@ -33,24 +26,15 @@ x._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
 _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1; rua=mailto:reports@wikiforge.net;"
 
 ; BIMI - Used for verified emails
-default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswiki/f/f1/WikiForge_BIMI.svg;a="
 
 ; Servers
-ns1		A		38.46.217.173
-		AAAA	2602:294:0:a9e::213
-ns2		A		51.68.215.13
-		AAAA	2001:41d0:801:2000::2549
-mail	A		38.46.217.174
+ns1		A		10.0.10.23
+ns2		A		10.0.10.23
 
 ; Services
-bastion		CNAME	bast21-public.inside.wf.
-static-help	CNAME	wikiforge.github.io.
-status		CNAME	wikiforge.hund.io.
-; support	CNAME	phorge21-public.inside.wf.
 
 ; load balancers
 
 ; Other
-avid		CNAME	mwdedi3.your.wf.
 
 ; Miscellaneous
