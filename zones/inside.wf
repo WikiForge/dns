@@ -66,14 +66,14 @@ rdb101            A     10.0.10.32
 prometheus101     A     10.0.10.33
 
 ; Services
-icinga		CNAME	mon101.fsslc.wfnet.
-grafana		CNAME	mon101.fsslc.wfnet.
-logging		CNAME	graylog101.fsslc.wfnet.
-opensearch	CNAME	os101.fsslc.wfnet.
-opensearch-mw	CNAME	os101.fsslc.wfnet.
-swift-lb	CNAME	swiftproxy101.fsslc.wfnet.
-ldap		CNAME	ldap101.fsslc.wfnet.
-mail		CNAME	mail101.fsslc.wfnet.
+icinga		CNAME	mon101.inside.wf.
+grafana		CNAME	mon101.inside.wf.
+logging		CNAME	graylog101.inside.wf.
+opensearch	CNAME	os101.inside.wf.
+opensearch-mw	CNAME	os101.inside.wf.
+swift-lb	CNAME	swiftproxy101.inside.wf.
+ldap		CNAME	ldap101.inside.wf.
+mail		CNAME	mail101.inside.wf.
 
 ; load balancers
 
