@@ -18,9 +18,7 @@ $ORIGIN inside.wf.
 @		NS	ns2.wikiforge.net.
 
 ; Mail exchangers
-@		MX	1	mail.wikiforge.net.
-@		MX	10	tuesday.mxrouting.net.
-@		MX	20	tuesday-relay.mxrouting.net.
+@		MX	1	mail.wikiforge.xyz.
 
 ; Mail policies
 
@@ -33,79 +31,48 @@ $ORIGIN inside.wf.
 ; BIMI - Used for verified emails
 
 ; Servers
-cloud1		A	208.110.84.234
-cloud2		A	38.46.217.170
-cp2		A	158.69.62.132
-		AAAA	2607:5300:201:3100::175d
-cp3		A	51.68.214.246
-		AAAA	2001:41d0:801:2000::2200
-cp4		A	51.38.134.38
-		AAAA	2001:41d0:601:1100::2d57
-cp5		A	15.235.192.162
-		AAAA	2402:1f00:8000:800::184e
-cp6		A	51.161.131.113
-		AAAA	2402:1f00:8100:400::1e70
-ns1		A	38.46.217.173
-		AAAA	2602:294:0:a9e::213
-ns2		A	51.68.215.13
-		AAAA	2001:41d0:801:2000::2549
-
-puppet21			AAAA	2602:294:0:a9e::202
-puppet21-public		AAAA	2602:294:0:a9e::202
-puppet21-private	A		10.0.2.2
-mw21				A		10.0.2.3
-mw21-public			AAAA	2602:294:0:a9e::203
-mw22				A		10.0.2.4
-mw22-public			AAAA	2602:294:0:a9e::204
-mw23				A		10.0.2.5
-mw23-public			AAAA	2602:294:0:a9e::205
-db21				A		10.0.2.6
-mwtask21			A		10.0.2.7
-jobchron21			A		10.0.2.8
-mem21				A		10.0.2.9
-staging21			A		10.0.2.10
-staging21-public	AAAA	2602:294:0:a9e::210
-phorge21			A		10.0.2.11
-phorge21-public		AAAA	2602:294:0:a9e::211
-mon21				A		10.0.2.12
-ns21				A		10.0.2.13
-cp21				A		10.0.2.14
-cp21-public			AAAA	2602:294:0:a9e::214
-bast21				A		10.0.2.15
-bast21-public		AAAA	2602:294:0:a9e::215
-services21			A		10.0.2.16
-os21				A		10.0.2.17
-graylog21			A		10.0.2.18
-prometheus21		A		10.0.2.19
-matomo21			A		10.0.2.20
-matomo21-public		AAAA	2602:294:0:a9e::220
-bots21				A		10.0.2.21
-swiftac21			A		10.0.2.22
-swiftac21-public	AAAA	2602:294:0:a9e::222
-swiftobject21		A		10.0.2.23
-swiftobject21-public	AAAA	2602:294:0:a9e::223
-swiftproxy21		A		10.0.2.24
-swiftproxy21-public	AAAA	2602:294:0:a9e::224
-ldap21				A		10.0.2.25
-mail21				A		10.0.2.26
-mail21-public		A		38.46.217.174
-mwdedi21			A		10.0.2.51
-mwdedi21-public		AAAA	2602:294:0:a9e::251
-mwdedi22			A		10.0.2.52
-mwdedi22-public		AAAA	2602:294:0:a9e::252
+cloud10           A     10.0.10.1
+puppet101         A     10.0.10.2
+bast101           A     10.0.10.3
+bast102           A     10.0.10.4
+mw101             A     10.0.10.5
+mw102             A     10.0.10.6
+mw103             A     10.0.10.7
+mw104             A     10.0.10.8
+mwtask101         A     10.0.10.9
+db101             A     10.0.10.10
+db102             A     10.0.10.11
+test101           A     10.0.10.12
+cp101             A     10.0.10.13
+changeprop101     A     10.0.10.14
+eventgate101      A     10.0.10.15
+kafka101          A     10.0.10.16
+mon101            A     10.0.10.17
+graylog101        A     10.0.10.18
+ldap101           A     10.0.10.19
+mail101           A     10.0.10.20
+mem101            A     10.0.10.21
+matomo101         A     10.0.10.22
+ns1               A     10.0.10.23
+os101             A     10.0.10.24
+os102             A     10.0.10.25
+phorge101         A     10.0.10.26
+swiftac101        A     10.0.10.27
+swiftobject101     A     10.0.10.28
+swiftproxy101     A     10.0.10.29
+bots101           A     10.0.10.30
+whmcs101          A     10.0.10.31
+rdb101            A     10.0.10.32
+prometheus101     A     10.0.10.33
 
 ; Services
-icinga		CNAME	mon21
-grafana		CNAME	mon21
-logging		CNAME	graylog21
-opensearch	CNAME	os21
-swift-lb	CNAME	swiftproxy21
-ldap		CNAME	ldap21
+icinga		CNAME	mon101
+grafana		CNAME	mon101
+logging		CNAME	graylog101
+opensearch	CNAME	os101
+swift-lb	CNAME	swiftproxy101
+ldap		CNAME	ldap101
 
 ; load balancers
 
 ; Other
-_acme-challenge	TXT	"pODX0cIFB9C_rsqIdkHLCWbcFwioZXZMEBK6sYYVGYE"
-_acme-challenge	TXT	"4HokV8TQcc_WSoDnkbMzfg69ko7o6F-K33er1Sm7i3k"
-_acme-challenge	TXT	"T0zvToTuEfSa9h5_g_RG7aTPsV3stO-xx6uzesj2nc4"
-_acme-challenge	TXT	"8M3JZhe6IQSxUEJvEiJDThF0YnfeIORfFRmFN1GcYZc"
