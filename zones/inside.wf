@@ -64,7 +64,7 @@ rdb101            A     10.0.10.32
 prometheus101     A     10.0.10.33
 
 ; Services
-bastion		CNAME	bast101
+bastion		CNAME	bast101.inside.wf.
 icinga		CNAME	mon101.inside.wf.
 grafana		CNAME	mon101.inside.wf.
 logging		CNAME	graylog101.inside.wf.
