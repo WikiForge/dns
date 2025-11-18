@@ -70,8 +70,10 @@ icinga		CNAME	mon101
 grafana		CNAME	mon101
 logging		CNAME	graylog101
 opensearch	CNAME	os101
+opensearch-mw	CNAME	os101
 swift-lb	CNAME	swiftproxy101
 ldap		CNAME	ldap101
+mail		CNAME	mail101
 
 ; load balancers
 
