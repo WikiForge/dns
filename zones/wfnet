@@ -52,3 +52,7 @@ bots101           A     10.0.10.30
 whmcs101          A     10.0.10.31
 rdb101            A     10.0.10.32
 prometheus101     A     10.0.10.33
+
+; Aliases
+bastion			A	10.0.10.3 ; bast101
+prometheus-pushgateway	A	10.0.10.33 ; prometheus101
