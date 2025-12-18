@@ -10,31 +10,70 @@ $ORIGIN wikiforge.net.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
-*		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
 @		NS	ns2.wikiforge.net.
 
+; Mail exchangers
+@		MX	1	mail.wikiforge.xyz.
+
+; Mail policies
+
 ; Mail autodiscovery
 
 ;; DKIM - Policy: Mail may be signed. Not required.
-x._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3OZHhfllokn1NfAOFM2cyUZGojvEFZJdNuzGNlw/NLaLi8w3jNLeZfUXBzaRjJ1ehe0sOk8MOU230QHqt6gKNYIsY5c2AeVGwwSfwvvTLBCjD0xrI3hAiAI4NsGd5exkFXrAkLyDigwAAtSSxZ7t8LudXWJIlXL8XJKbOnZlQlkqPzQcS7FI99QZ+ozSwmPfjkao4e2TtpcHGk4ryQj3j6RaWUIG/bAeL+1gfZpZ00z/M1ema9hqkc1XLai/uPH+preiwJTeADKwZc0WtgItXz/CBoZOJQpPRufMmdjgXPAxSAZH57kAjvBmk9hL0oTZo1DDvQfa8n7y6H4IRzMbrwIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
-_dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1; rua=mailto:reports@wikiforge.net;"
 
 ; BIMI - Used for verified emails
 
 ; Servers
-ns1		A		10.0.10.23
-ns2		A		10.0.10.23
+cloud10           A     10.0.10.1
+puppet101         A     10.0.10.2
+bast101           A     10.0.10.3
+bast102           A     10.0.10.4
+mw101             A     10.0.10.5
+mw102             A     10.0.10.6
+mw103             A     10.0.10.7
+mw104             A     10.0.10.8
+mwtask101         A     10.0.10.9
+db101             A     10.0.10.10
+db102             A     10.0.10.11
+test101           A     10.0.10.12
+cp101             A     10.0.10.13
+changeprop101     A     10.0.10.14
+eventgate101      A     10.0.10.15
+kafka101          A     10.0.10.16
+mon101            A     10.0.10.17
+graylog101        A     10.0.10.18
+ldap101           A     10.0.10.19
+mail101           A     10.0.10.20
+mem101            A     10.0.10.21
+matomo101         A     10.0.10.22
+ns1               A     10.0.10.23
+os101             A     10.0.10.24
+os102             A     10.0.10.25
+phorge101         A     10.0.10.26
+swiftac101        A     10.0.10.27
+swiftobject101     A     10.0.10.28
+swiftproxy101     A     10.0.10.29
+bots101           A     10.0.10.30
+whmcs101          A     10.0.10.31
+rdb101            A     10.0.10.32
+prometheus101     A     10.0.10.33
 
 ; Services
+bastion		CNAME	bast101.wikiforge.net.
+icinga		CNAME	mon101.wikiforge.net.
+grafana		CNAME	mon101.wikiforge.net.
+logging		CNAME	graylog101.wikiforge.net.
+opensearch	CNAME	os101.wikiforge.net.
+opensearch-mw	CNAME	os101.wikiforge.net.
+swift-lb	CNAME	swiftproxy101.wikiforge.net.
+ldap		CNAME	ldap101.wikiforge.net.
+mail		CNAME	mail101.wikiforge.net.
 
 ; load balancers
 
 ; Other
-
-; Miscellaneous
