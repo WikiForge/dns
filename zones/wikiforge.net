@@ -70,6 +70,7 @@ grafana		CNAME	mon101.wikiforge.net.
 logging		CNAME	graylog101.wikiforge.net.
 opensearch	CNAME	os101.wikiforge.net.
 opensearch-mw	CNAME	os101.wikiforge.net.
+static		DYNA	geoip!cp
 swift-lb	CNAME	swiftproxy101.wikiforge.net.
 ldap		CNAME	ldap101.wikiforge.net.
 mail		CNAME	mail101.wikiforge.net.

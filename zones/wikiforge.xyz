@@ -18,11 +18,9 @@ $ORIGIN wikiforge.xyz.
 @		NS	ns2.wikiforge.net.
 
 ; Mail exchangers
-@		MX	10	tuesday.mxrouting.net.
-@		MX	20	tuesday-relay.mxrouting.net.
+@		MX	1	mail.wikiforge.xyz.
 
 ; Mail policies
-@	TXT	"v=spf1 include:mxlogin.com -all"
 
 ; Mail autodiscovery
 
@@ -33,7 +31,6 @@ x._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
 _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1; rua=mailto:reports@wikiforge.net;"
 
 ; BIMI - Used for verified emails
-default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswiki/f/f1/WikiForge_BIMI.svg;a="
 
 ; Servers
 
@@ -42,5 +39,6 @@ default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswiki/f/f1/WikiF
 ; load balancers
 
 ; Other
+mail	CNAME	mail101.fsslc.wfnet.
 
 ; Miscellaneous
