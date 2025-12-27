@@ -39,6 +39,6 @@ _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1; rua=mailto:reports@wikiforge.ne
 ; load balancers
 
 ; Other
-mail	CNAME	mail101.fsslc.wfnet.
+mail           A     10.0.10.20
 
 ; Miscellaneous
