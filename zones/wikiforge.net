@@ -75,6 +75,7 @@ static		DYNA	geoip!cp
 swift-lb	CNAME	swiftproxy101.wikiforge.net.
 ldap		CNAME	ldap101.wikiforge.net.
 mail		CNAME	mail101.wikiforge.net.
+ai			CNAME	llm101.wikiforge.net.
 
 ; load balancers
 
