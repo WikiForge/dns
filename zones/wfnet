@@ -46,12 +46,13 @@ os101             A     10.0.10.24
 os102             A     10.0.10.25
 phorge101         A     10.0.10.26
 swiftac101        A     10.0.10.27
-swiftobject101     A     10.0.10.28
+swiftobject101    A     10.0.10.28
 swiftproxy101     A     10.0.10.29
 bots101           A     10.0.10.30
 whmcs101          A     10.0.10.31
 rdb101            A     10.0.10.32
 prometheus101     A     10.0.10.33
+llm101		      A     10.0.10.35
 
 ; Aliases
 bastion			A	10.0.10.3 ; bast101

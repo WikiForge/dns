@@ -62,6 +62,7 @@ bots101           A     10.0.10.30
 whmcs101          A     10.0.10.31
 rdb101            A     10.0.10.32
 prometheus101     A     10.0.10.33
+llm101			  A     10.0.10.35
 
 ; Services
 bastion		CNAME	bast101.wikiforge.net.
