@@ -57,3 +57,10 @@ llm101		      A     10.0.10.35
 ; Aliases
 bastion			A	10.0.10.3 ; bast101
 prometheus-pushgateway	A	10.0.10.33 ; prometheus101
+
+; Services
+$ORIGIN svc.fsslc.wtnet.
+
+jobrunner		CNAME	mwtask101.fsslc.wfnet.
+jobrunner-high	CNAME	mwtask101.fsslc.wfnet.
+videoscaler		CNAME	mwtask101.fsslc.wfnet.
